@@ -33,7 +33,7 @@ NameData:
  db "                   "
  ;Level 006
  db "                   "
- db "                   "
+ db "SUPER DEMO BALL    "
  ;Level 007
  db "                   "
  db "                   "
