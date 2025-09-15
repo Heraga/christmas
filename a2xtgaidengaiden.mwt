@@ -1,0 +1,21 @@
+00	Donut Lift
+01	Boomerang Bro
+02	Hammer Bro
+03	Piranha Plant/Venus Fire Trap
+04	Thwomp Up
+	Thwomp Down
+	Thwomp Right
+	Thwomp Left
+	Power Thwomp Up
+	Power Thwomp Down
+	Power Thwomp Right
+	Power Thwomp Left
+05	Info Box
+	Info Box-extra animation
+06	NPC_priority_3 (extra bit clear)
+	NPC_priority_3 (extra bit set)
+10	Piranha Firespit
+11	goal_sphere_smw (extra bit clear)
+	goal_sphere_smw (extra bit set)
+BE	vwf data
+BF	Vwf

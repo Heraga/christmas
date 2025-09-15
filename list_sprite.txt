@@ -1,0 +1,17 @@
+SPRITE:
+00 donut_lift_solid.json
+01 BoomerangBro.json
+02 HammerBro.json
+03 piranha_venus.json
+04 thwomps.json
+05 InfoBox.json
+06 NPC_priority_3.cfg
+10 piranha_firespit.json
+11 goal_sphere_smw.cfg
+
+BE vwf/vwf_data.json
+BF vwf/vwf.json
+
+EXTENDED:
+00 boomerang.asm
+01 hammer.asm

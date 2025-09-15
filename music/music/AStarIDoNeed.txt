@@ -1,0 +1,18 @@
+#amk 4
+#samples {
+	#optimized
+	"starget.brr"
+	"justwhatineeded.brr"
+}
+#instruments {
+	"starget.brr" $00 $00 $7F $04 $00
+	"justwhatineeded.brr" $00 $00 $7F $04 $00
+}
+
+#0
+r16
+@30 o3 f2^2
+r16
+@31 o3 e2^2
+/
+r2

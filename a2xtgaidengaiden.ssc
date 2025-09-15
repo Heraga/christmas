@@ -1,0 +1,32 @@
+00 0020 Undefined Sprite
+00 0022 0,0,0
+01 0020 A Boomerang Bro from Super Mario Bros. 3. It walks back and forth, occasionally hopping and periodically throwing two boomerangs, which it will later try to catch.
+01 0022 0,-16,400 0,0,401 8,-16,402
+02 0020 A Hammer Bro from Super Mario Bros. 3. It walks back and forth and sometimes jumps high between blocks. It frequently throws hammers in Mario's direction.
+02 0022 0,-16,403 0,0,404 8,-16,405
+03 0020 Piranha Plant or Venus Fire Trap
+03 0022 8,0,C8
+04 0020 Undefined Sprite
+04 0022 4,0,34 20,0,35 4,16,44 20,16,45
+04 0030 Undefined Sprite
+04 0032 4,0,34 20,0,35 4,16,44 20,16,45 8,8,1BC
+05 0020 A message block that acts like the original. Changin the Extension to the number of the level allows the message block to use that level's message, instead of the current one.
+05 0022 0,0,10B
+05 0030 It's the same as the Info Box, just with an extra animation.
+05 0032 0,0,406
+06 0020 NPC_priority_3 (extra bit clear)
+06 0022 0,0,0
+06 0030 NPC_priority_3 (extra bit set)
+06 0032 0,0,0
+10 0020 SMW's Classic Piranha Plant that spits fireballs. This one spits fire 1 time.
+10 0022 0,16,26 0,0,16 16,-8,B6 -8,-8,B5
+10 0030 SMW's Classic Piranha Plant that spits fireballs. This one spits fire 3 times.
+10 0032 0,16,26 0,0,16 16,-8,B6 -8,-8,B5
+11 0020 goal_sphere_smw (extra bit clear)
+11 0022 0,0,0
+11 0030 goal_sphere_smw (extra bit set)
+11 0032 0,0,0
+BE 0020 Loads VWF Cutscene Message Based on X, Y position
+BE 0022 0,0,10B
+BF 0020 Main sprite that loads the game loop for VWF Cutscene Tool.
+BF 0022 0,0,*Game\nloop\nsprite*

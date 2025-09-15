@@ -1,0 +1,74 @@
+Tools:
+-asar 1.9
+-AMK 1.0.11
+-GPS 1.4.5
+-PIXI 1.42
+-UberASM 2.1
+-VWF Cutscene Tool 2.0 (AAT Edit)
+
+Graphics:
+-AAT Graphics
+-AAT ExGFX60.bin
+
+Music:
+-ASMT Ticking SFX
+-AAT Global Music
+
+Blocks:
+-Screen Scrolling Pipes 4.0.2 by HammerBrother
+-...
+
+Sprites:
+-Thwomp Pack by Tattletale, Isikoro
+-...
+
+UberASM:
+-Retry System 0.8.1 by Kevin
+-Screen Scrolling Pipes 4.0.2 Support GameModeASM by HammerBrother
+
+
+Patches:
+-SA-1 Pack 1.41 by Vitor Vilela, Arujus
+
+	Fixes:
+-Ball and Chain interaction with Yoshi fix by Kevin	(BallChainYoshiFix.asm)
+-BG Candle Flames Priority Fix (for SA-1 MaxTile) by Kevin	(bg_candle_flames_fix.asm)
+-Circle HDMA Fix by p4plus2	(circle_fix.asm)
+-Fireball Conveyor Fix by Thomas	(ConveyorFireFix.asm)
+-$13FB Game Crash Fix by p4plus2	(fireberryfix.asm)
+-Vertical Level Bowser Statue Fireball Fix by Medic, Telinc	(FireFix.asm)
+-Item Box Mushroom Priority Fix by Alcaro	(fixmush.asm)
+-Hammer Bro Fix v1.1 by Tattletale, yoshifanatic	(HammerBroFix.asm)
+-Red Net Koopa Turning Fix by Ice Man	(netkoopafix.asm)
+-No Sprite Interaction Fix by chillyfox	(No Sprite Interaction Fix.asm)
+-Piranha Plant Patch Fix by Chdata	(PIR.asm)
+-Rollover Fix by Noobish Noobsicle	(RolloverFix.asm)
+-Autoscroll ($1411) + L/R Softlock Fix by Telinc1	(scrollfix.asm)
+-Slope Pass Glitch Fix 2.1 by lolcats439	(slopepassfix.asm)
+-Double Spinjump Antifail by Alcaro	(spinspinspinaaaaaugghh.asm)
+-Sprite Scroll Fix by HammerBrother	(SpriteScrollFix.asm)
+-Tide Sprite Interaction Fix by Alcaro	(tidefix.asm)
+-Walljump/Note Block Glitch Fix v1.6 by lolcats439	(walljumpnoteblockglitchfix.asm)
+-Yoshi Sprites Interaction Fix v1.1 by Kevin	(YoshiSpriteInteractionsFix.asm)
+-Balloon Direction Fix by Alcaro	(yourfatface.asm)
+
+	Other Patches:
+-Auto-Scroll Speed Customizer by imamelia	(auto.asm)
+-Customizable HUD by ASMagician Maks, PSI Ninja	(custom_hud.asm)
+-Darken Pause by ghettoyouth	(DarkenPause.asm)
+-Death Counter by yoshicookiezeus	(deathcounter.asm)
+-Extended Sprite Despawn Range Fix by HammerBrother, Isikoro	(ExtendSpriteDespawnRangeFix.asm)
+-Extended No Sprite Tile Limits v4.0 by DiscoTheBat, Kevin, Roy, imamelia, worldpeace	(extendnstl.asm)
+-Extra Save by ASMagician Maks	(extra_save.asm)
+-Flag-Controlled Free Vertical Scroll by Telinc1	(flagfreescroll.asm)
+-Goodbye Football RNG by MellyMellouange	(footballlol.asm)
+-Inline Layer 3 Messages v1.0.1	by MarioFanGamer	(InlineLayer3Message.asm InlineMessageNmi.asm)
+-Level Specific Speeds for Monty Moles and Hammers by Lui	(m_sprites.asm)
+-No Silent Bullet Bill by Ramp202	(No Silent Bullet.asm)
+-Fixed Color Data NMI Optimizer by Ladida	(optimize_2132_store.asm)
+-Manual Player Palette Updater V1.1 by imamelia	(playerpalupdate.asm)
+-Side Exit Triggers Goal by RussianMan	(side_exit_goal.asm)
+-SimpleHP by Lord Ruby	(simpleHP.asm)
+-Optimized Spotlight by yoshifanatic	(Spotlight.asm)
+-Screen Scrolling Pipes 4.0.2 Support Patch by HammerBrother	(SSPFixes.asm)
+-P-Switch Ticking Sound by Kil	(ticking.asm)

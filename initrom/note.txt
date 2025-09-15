@@ -1,0 +1,3 @@
+base.bps - SMW with SA-1 Pack 1.41 and various LM hijacks
+transplantrom.bps - This ROM will have the latest version of the overworld, title screen, credits, and Global ExAnimation for building a new ROM
+shared.pal - File coontaining all shared palette data

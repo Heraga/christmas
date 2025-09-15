@@ -1,0 +1,47 @@
+$58		SimpleHP Current HP
+
+$60		Screen Scrolling Pipes
+$61		Screen Scrolling Pipes
+$62		Screen Scrolling Pipes
+$63		Screen Scrolling Pipes
+$79		Screen Scrolling Pipes
+
+$7C		SimpleHP Settings
+
+$0F3A-$0F3B	Screen Scrolling Pipes Warp Mode
+$0F3C-$0F3D	Screen Scrolling Pipes Warp Mode
+
+$13E6		Custom HUD Type
+
+$140B		Free Vertical Scroll Flag
+
+$1869		Extended NSTL
+
+$18BB		Disable Death Counter Flag
+
+$40A400-$40A42F	Retry System
+$40A430-$40A4EF Level Checkpoint Settings (Retry System)
+$40A4F0-$40A511	Custom Checkpoint Objects (Retry System)
+
+$418AFF-$418B02	Manual Player Palette Updater
+
+$7FA600-$7FA9FF	Inline Layer 3 Messages Layer 3 Backup
+$7FC700-$7FC78F Inline Layer 3 Messages
+
+
+SRAM
+$1F2B		Unused Saved Variable
+$1F2C		Unused Saved Variable
+$1F2D		Unused Saved Variable
+
+$41C000-$41C08E	Vanilla File 1
+$41C08F-$41C11D	Vanilla File 2
+$41C11E-$41C1AC	Vanilla File 3
+$41C1AD-$41C23B	Backup of Vanilla File 1
+$41C23C-$41C2CA Backup of Vanilla File 2
+$41C2CB-$41C359 Backup of Vanilla File 3
+
+$41C35A		Unused Enexpanded SRAM
+$41C7ED-$41C7F5	Demo Counter
+
+$41A000		Expanded SRAM

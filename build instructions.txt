@@ -1,0 +1,20 @@
+First Build:
+-Patch both bps files in the initrom folder.
+-Put a copy of Lunar Magic.exe in the LM folder.
+-Run the Build From Scratch.bat batch file.
+For subsequent builds, you can just run the Build From Scratch.bat file.
+
+The 5 "Insert x" batch files are called by the main Build file, but you can also ran them by themselves to apply changes without rebuilding the entire ROM.
+
+The list files for blocks, sprites, and UberASM are in the same directory as the batch files and the ROM.
+The list files for music, sound effects, and sample group file are in the music folder.
+To add any patches, you have to edit the Insert Patch.bat file to add another asar.exe call.
+
+
+How to save Level progress for next rebuild:
+-Export all modified levels as mwl files to the Levels folder.
+-Full export map16 as AllMap16.map16 to the Map16 folder.
+
+
+How to save Overworld progress for next rebuild:
+-Rename your ROM to transplantrom.smc and replace the file in the initrom folder.

@@ -1,0 +1,48 @@
+; UberASM Tool list file.
+; See the readme for detailed information on its format.
+
+; sets verbose level, optional
+verbose: on
+
+; display asar deprecation warnings, optional
+deprecations: on
+
+; ROM file to use, may be overridden on command line, optional here if so
+rom: ../a2xtgaidengaiden.smc
+
+; Level resources
+level:
+	006 shotgunice.asm
+	027 shotgunice.asm
+	106 hudtype.asm:4,
+	    freescrollbabey.asm
+	107 hudtype.asm:2
+	109 hpsystem.asm:%11000111 1
+	197 hudtype.asm:3
+
+; Overworld resources
+overworld:
+
+; Game mode resources
+gamemode:
+	00 retry_gm00.asm
+	06 retry_gm06.asm
+	07 retry_gm07.asm
+	0C retry_gm0C.asm
+	0D retry_gm0D.asm
+	0F retry_gm0F.asm
+	10 retry_gm10.asm
+	11 retry_gm11.asm
+	12 retry_gm12.asm
+	13 retry_gm13.asm
+	14 retry_gm14.asm,
+	   SSPGM14.asm
+	15 retry_gm15.asm
+	16 retry_gm16.asm
+	19 retry_gm19.asm
+
+; Other code files and free RAM setting.  These don't usually need to be changed.
+global:         other/global_code.asm
+statusbar:      other/status_code.asm
+macrolib:       other/macro_library.asm
+freeram:        $7FAC80                    ; 2 bytes of free RAM

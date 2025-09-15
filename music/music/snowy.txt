@@ -1,0 +1,87 @@
+#amk 2
+#samples
+{
+"optimized/00 SMW @0.brr"
+"optimized/01 SMW @1.brr"
+"optimized/02 SMW @2.brr"
+"optimized/03 SMW @3.brr"
+"optimized/04 SMW @4.brr"
+"optimized/05 SMW @8.brr"
+"optimized/06 SMW @22.brr"
+"optimized/07 SMW @5.brr"
+"optimized/08 SMW @6.brr"
+"optimized/09 SMW @7.brr"
+"optimized/0A SMW @9.brr"
+"optimized/0B SMW @10.brr"
+"optimized/0C SMW @13.brr"
+"optimized/0D SMW @14.brr"
+"optimized/0E SMW @29.brr"
+"optimized/0F SMW @21.brr"
+"optimized/10 SMW @12.brr"
+"bullshit/shot.brr"
+"bullshit/bump.brr"
+"bullshit/multiball.brr"
+}
+
+#instruments
+{
+	@21 $8F $E0 $00 $04 $00
+	@10 $8F $E0 $00 $08 $00		
+}
+	
+#spc 
+{
+	#title "Snowy"
+	#game "Mario Pinball Land"
+	#author "Nimrod Productions"
+	#comment "play this game you'll love it"
+}
+
+$EF $1F $1F $1F
+$F1 $03 $20 $01
+$F4 $02 
+
+ 
+
+#0 r=6 / @3 $ED $1F $F7 t54 w160 l16 q7a 
+[ [[ o4 ea>ceaece]]4 [[ o4 dg>cegece]]4 [[ o4 dgb>dgd<b>d]]4 [[ o4 ea>ceaece]]4 ]6
+
+#1 r=6 /  @8 $ED $0F $C0  l16
+[[ [o2 q7f a8.r a8. e a8r8 a8. ea8r8 a8.e ararba8r
+g8.r g8. f+g8r8 g8. f+g8r8g8. f+grgrg8a8]
+g8.rg8. dg8r8 g8.dg8 r8 g8.dgrgrgrg+r
+a8.ra8.ea8r8a8.e a8r8a8.eararbag8
+*1
+g8.r g8. dg8r8 g8. dg8r8g8.dgrgrgf+8.
+a8.r a8. ea8r8 a8.e a8r8a4 bag8a8.r]]3
+
+#2 @7 $ED $0F $C0  $F4 $01  o6 v0 a=6 / l16 (20)[ v200
+o4 a8. v0 ^ v200 b v0 ^ v200 >c v0 ^ v200 d8. v0 ^ v200 c v0 ^ v200 <b v0 ^ v200 >c8.< v0 ^ v200 b v0 ^ v200 a v0 ^ v200 b8 v0 ^8 v200 a8 v0 ^8 
+v200 g8. v0 ^ v200 a v0 ^ v200 b v0 ^ v200 >c8. v0 ^ < v200 b v0 ^  v200 a v0 ^ v200 b8. v0 ^ v200 a8 v0 ^8 v200 a4 v0 ^4   
+v200 g8. v0 ^ v200 a v0 ^ v200 b v0 ^ v200 >c v0 ^ v200 d v0 ^ v200 c v0 ^ v200 <b v0 ^ v200 >c v0 ^ v200 <b v0 ^ v200 a v0 ^ v200 b v0 ^ v200 a v0 ^ v200 g v0 ^ v200 a8. v0 ^  
+v200 a8. v0 ^ v200 b v0 ^ v200 >c v0 ^< v200 b8. v0 ^ v200 a v0 ^ v200 b v0 ^ v200 a8. v0 ^ v200 g8. v0 ^ v200 a4 v0 ^4]2 
+(21)[c2]32
+(20)
+(21)16
+
+
+#3 r32/ [r2]32
+
+@5 $ED $1F $EF
+[[ o3 a1. a4e4 g1. a4e4 g1. a4g4 a1^1]]4
+
+#4  r32/ @1 $ED $0F $C0  $FA $02 $F4 $F4 $01 (20)2 
+$f4 $01
+@4 o4 $ED $1F $F4 q18 v255
+[[r8a8a8a8]]4 [[r8b8b8b8]]8 [[r8a8a8a8]]4 >
+ [[r8c8c8c8]]4 < [[r8b8b8b8]]4 [[r8g8g8g8]]4 [[r8a8a8a8]]4
+
+@1 $ED $0F $C0   $f4 $01 (20) v255 $F4 $01
+@4 o4 $ED $1F $F4 q18 
+[[r8a8a8a8]]4 [[r8b8b8b8]]4 [[r8g8g8g8]]4 [[r8a8a8a8]]4
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+#5 $FA $03 $4F r32/ l8 o3 (50)[@30 c @23 c @31 c @23 c]32 (51)[@30 c4 @31 c4]32 (50)16 (51)16 
